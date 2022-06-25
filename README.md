@@ -10,6 +10,65 @@
   
 </head>
 <div>
+    html {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    width: 21cm;
+      min-height: 29.7cm;
+      padding: 2cm;
+      margin: 0cm auto;
+      border: 3px #ffffff solid;
+      border-radius: 5px;
+      text-transform: capitalize;
+      }
+   @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }}
+
+
+img.avatar {
+        width: 250px;
+        height: 210px;
+        border-radius: 50%;
+        padding: 5px 5px 5px 5px;}
+h1.Heading_top {
+    margin-top: -27px;
+    margin-bottom: 0;
+    font-size: 45px;
+    color: lightgoldenrodyellow;
+    FONT-VARIANT: JIS04;}
+
+h3.Heading_top-2 {
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-size: 23px;
+        color: lightgoldenrodyellow;
+        FONT-VARIANT: JIS04;
+    }
+ul.body_info-i {font-style: italic;color: white;font-size: 16px;margin-top: -10px;line-height: 1.5;text-shadow: 3px 3px 8px #af9028;}
+
+h4.body_infor {
+    font-size: 20px;
+    color: #d1d9ff;
+    text-shadow: 3px 3px 12px #645d5d;
+}
+a{
+    line-height: 20px;
+    text-align: center;
+    display: flex;
+    font-size: large;
+    font-style: oblique;
+}
+
     <div class="d-flex flex-column justify-content-center w-100 h-100">
         </div>
     <div>
